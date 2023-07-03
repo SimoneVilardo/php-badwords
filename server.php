@@ -4,7 +4,7 @@
     echo $paragrafo."<br />";
     echo "Lunghezza paragrafo:".strlen($paragrafo)."<br /><br /><br /><br /><br />";
 
-    echo str_replace('sono', '***', $paragrafo)."<br />";
+    echo "Badword:'sono'<br />".str_replace('sono', '***', $paragrafo)."<br />";
     echo "Lunghezza paragrafo:".strlen($paragrafo)
 
 ?>
